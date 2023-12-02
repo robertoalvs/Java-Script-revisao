@@ -21,4 +21,4 @@ let n1 = Number(ano)
 
 let soma = anoatual - ano
 
-let res = document.write(`Seu nome é: <strong>${nome}</strong> <br> Seu sobrenome é: <strong>${sobre}</strong> <br> Você tem <strong>${soma}</strong de idade`)
+let res = document.write(`<p> Seu nome é: <strong>${nome}</strong> <br> Seu sobrenome é: <strong>${sobre}</strong> <br> Você tem <strong>${soma}</strong de idade</p>`)
