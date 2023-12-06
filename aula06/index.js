@@ -35,9 +35,12 @@ let n1 = 20
 let n3 = 20
  */
 
-let a = 5
+ /*let a = 5
 let b = 8
+*/
 
+let pcgamer = 10
 
+let marcelorj = pcgamer % 2 <= 10  ? 'BOM' : 'NOIA'
 
-console.log(true || false )
+console.log( marcelorj )
