@@ -11,23 +11,36 @@ if (vel > 60) {
 } */
 
 
-let country = ''
-let box = document.querySelector('input#itext')
-let res = document.querySelector('div#pais')
 
-let result = country
+        
 
-res.innerHTML = box
+        
+       
+            function verificar() {
 
-if (box == 'Brasil' ) {
+            let box = document.querySelector('input#itext')
+            let res = document.querySelector('div#pais')
+                
+            let paiis = box
 
-    res.style.background = "green"
-    res.style.color = "yellow"
-    res.innerText = 'BRASIL'
+                if (paiis == 'Brasil' ) {
 
-} else {
+                    res.innerText = 'BRASIL'
+                    res.style.background = "green"
+                    res.style.color = "yellow"
+                    
+                
+                }else   {
+                
+                    res.innerText = 'ESTRANGEIRO'
+                    res.style.background = "black"
+                    res.style.color = "white" 
+                }
 
-    res.innerText = 'ESTRANGEIRO'
-    res.style.background = "black"
-    res.style.color = "white"    
-}
+            }
+
+            
+    
+        
+
+    
