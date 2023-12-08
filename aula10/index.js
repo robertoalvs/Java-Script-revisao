@@ -1,13 +1,15 @@
 
 function somar() {
 
-    let numero = document.getElementById('inum')
-    let numero1 = document.getElementById('inum2')
-    let result = document.getElementById('res')
+    let numero = document.querySelector('input#inum')
+    let numero2 = document.querySelector('input#inum2')
+    let res = document.querySelector('div#res')
+    let n1 = Number(numero.value)
+    let n2 = Number(numero2.value)
 
-    let nu1 = Number(numero.value)
-    let nu2 = Number(numero1.value)
-    let total = nu1 + nu2
+    let soma = n1 + n2
+    
 
-    result.innerHTML = `A soma de ${nu1} + ${nu2} é: ${total}`
+    res.innerHTML = `A soma de ${n1} + ${n2} é: ${soma}`
+
 }

@@ -9,7 +9,6 @@
 
         div#area {
 
-            background-color: rgb(91, 218, 91);
             width: 300px;
             height: 300px;
             border: 2px solid black;
@@ -29,27 +28,30 @@
 
     <script>
         
-        let a = document.getElementById('area')
-        a.addEventListener('click', clicar)
-        a.addEventListener('mouseenter', entrar)
-        a.addEventListener('mouseout', sair)
+        let box = document.querySelector('div#area')
+
+        box.addEventListener('click', clicar)
+        box.addEventListener('mouseenter', entrar)
+        box.addEventListener('mouseout', sair)
+
 
         function clicar() {
-            a.style.fontSize = '4em'
-            a.style.background ='pink'
+
+            box.innerText = 'Clicou'
+            box.style.background = 'red'
         }
 
         function entrar() {
 
-            a.innerText = 'Entrou'
-            a.style.background = 'red'
+            box.innerText = 'Entrou'
+            box.style.background = 'blue'
         }
 
         function sair() {
 
-            a.innerText ='Vamos sair vencendo'
-            a.style.background = 'green'
-            a.style.color = ' white'
+            box.innerText ='Saiu'
+            box.style.background = 'black'
+            box.style.color = 'white'
         }
     </script>
 </body>
