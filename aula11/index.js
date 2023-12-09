@@ -1,44 +1,35 @@
 
-/* let vel = 50
 
-if (vel > 60) {
+function verificar() {
 
-    console.log(`Sua velocidade foi ${vel}, você ultrapassou o limite permitido, MULTADO!`)
+    let horas = document.getElementById('icountry')
+    let result = document.getElementById('res')
 
-} else {
+    let n = Number(horas.value)
 
-    console.log(`DIRIJA COM CUIDADO!`)
-} */
+    let time = n
 
+        if  (time <= 11) {
 
+            result.innerText = 'BOM DIA'
+            result.style.background = "green"
+            result.style.color = 'yellow'
 
+        } else if (time >= 12 && time <= 23){
+
+            result.innerText = `BOA TARDE SÃO ${time} HORAS`
+            result.style.background = 'orange'
+            result.style.color = 'black'
+            
+            
+        } else {
+
+            result.innerText = 'BOA NOITE'
+            result.style.background = 'black'
+            result.style.color = 'white'
+        }
         
-
-        
-       
-            function verificar() {
-
-            let box = document.querySelector('input#itext')
-            let res = document.querySelector('div#pais')
-                
-            let paiis = box
-
-                if (paiis == 'Brasil' ) {
-
-                    res.innerText = 'BRASIL'
-                    res.style.background = "green"
-                    res.style.color = "yellow"
-                    
-                
-                }else   {
-                
-                    res.innerText = 'ESTRANGEIRO'
-                    res.style.background = "black"
-                    res.style.color = "white" 
-                }
-
-            }
-
+}
             
     
         
