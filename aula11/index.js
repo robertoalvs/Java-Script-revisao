@@ -2,31 +2,25 @@
 
 function verificar() {
 
-    let horas = document.getElementById('icountry')
+    let texto = document.getElementById('icountry')
     let result = document.getElementById('res')
 
-    let n = Number(horas.value)
+    let pais = texto 
 
-    let time = n
+        if  (pais = 'Brasil' || pais == 'Brasil' ) {
 
-        if  (time <= 11) {
-
-            result.innerText = 'BOM DIA'
+            result.innerText = 'BRASIL'
             result.style.background = "green"
             result.style.color = 'yellow'
 
-        } else if (time >= 12 && time <= 23){
+        } else  if (pais = 'EUA' && pais == 'EUA' ){
 
-            result.innerText = `BOA TARDE SÃO ${time} HORAS`
-            result.style.background = 'orange'
-            result.style.color = 'black'
-            
-            
-        } else {
-
-            result.innerText = 'BOA NOITE'
+            result.innerText = 'ESTRANGEIRO'
             result.style.background = 'black'
             result.style.color = 'white'
+        } else {
+
+            result.innerText = 'VAI TIRAR O PASSAPORTE'
         }
         
 }
