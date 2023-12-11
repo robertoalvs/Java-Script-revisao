@@ -4,25 +4,24 @@ function verificar() {
   let txt = document.querySelector('input#itxt')
   let res = document.querySelector('div#res')
 
-  let pais = txt
+    if (txt.value.length == '0') {
 
-  if (pais == 'Brasil') {
+      
+      alert('ERRO! DIGITE ALGUMA COISA')
 
-    res.innerHTML = 'BRASILEIRO'
-    
+    }  else 
+          if (txt == 'Brasil')  {
 
-  } else if (pais != 'Brasil'){
+            res.innerHTML = 'BRASILERO'
+            res.style.background = 'green'
+      
 
-    res.innerHTML = 'ESTRANGEIRO'
-
-  } else if (pais == 'underfine'){
-
-    res.innerHTML = 'ERRO!'
-
-  } else {
-
-    res.innerHTML = ''
-  }
+    } else {
+      
+      res.innerHTML = 'ESTRANGEIRO'
+      res.style.background = 'black'
+      res.style.color = 'white'
+    }
 
 }
       
