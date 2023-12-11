@@ -1,30 +1,28 @@
 
 
-function verificar() {
+    function verificar() {
 
-    let texto = document.getElementById('icountry')
-    let result = document.getElementById('res')
+        let vel = document.querySelector('input#inum')
+        let res = document.querySelector('div#res')
+        let n = Number(vel.value)
 
-    let pais = texto 
-
-        if  (pais = 'Brasil' || pais == 'Brasil' ) {
-
-            result.innerText = 'BRASIL'
-            result.style.background = "green"
-            result.style.color = 'yellow'
-
-        } else  if (pais = 'EUA' && pais == 'EUA' ){
-
-            result.innerText = 'ESTRANGEIRO'
-            result.style.background = 'black'
-            result.style.color = 'white'
-        } else {
-
-            result.innerText = 'VAI TIRAR O PASSAPORTE'
-        }
+         
         
-}
-            
+
+        if (n > 50) {
+
+            res.innerHTML = `</p>Sua velocidade foi de <strong>${n} KM/h</strong></p>`
+
+            res.innerHTML += '<p>Ultrapassou o limite permitido <strong>MULTADO!</strong></p>'
+
+
+
+      } else {
+
+        res = alert('SIGA EM FRENTE!!!')
+      }
+    }
+      
     
         
 

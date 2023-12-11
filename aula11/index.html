@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,59 +8,25 @@
 
     <style>
 
-        h1 {
 
-            text-align: justify;
-            text-align: center;
-        }
-
-       form {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 10px;
-
-       }
-
-        #res {
-
-            width: 270px;
-            height: 200px;
-            line-height: 200px;
-            text-align: center;
-            border: 1px solid black;
-            margin: auto;
-            
-        }
-
-        input#icountry {
-
-            background-color: aquamarine;
-            height: 30px;
-            color: black;
-            font-size: 1em;
-            font-weight: bolder;
-        }
     </style>
 
 </head>
 
 <body>
-            
 
-        <h1>Condições em JavaScript  <br> IF and ELSE</h1>
 
-        <form action="" method="get">
+            <h1>Sistema de Multas</h1>
 
-            <input type="text" name="country" id="icountry">
+            <form action="" method="get">
 
-            <input type="button" value="Verificar" onclick="verificar()">
+                Velocidade do carro: <input type="number" name="num" id="inum"> Km/h
 
-        </form>
+                <input type="button" value="Verificar" onclick="verificar()">
 
-        <div id="res"></div>
+            </form>
+
+            <div id="res"></div>
 
         <script src="./index.js"></script>
 </body>
