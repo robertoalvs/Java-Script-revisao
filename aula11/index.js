@@ -1,27 +1,30 @@
 
+function verificar() {
 
-    function verificar() {
+  let txt = document.querySelector('input#itxt')
+  let res = document.querySelector('div#res')
 
-        let vel = document.querySelector('input#inum')
-        let res = document.querySelector('div#res')
-        let n = Number(vel.value)
+  let pais = txt
 
-         
-        
+  if (pais == 'Brasil') {
 
-        if (n > 50) {
+    res.innerHTML = 'BRASILEIRO'
+    
 
-            res.innerHTML = `</p>Sua velocidade foi de <strong>${n} KM/h</strong></p>`
+  } else if (pais != 'Brasil'){
 
-            res.innerHTML += '<p>Ultrapassou o limite permitido <strong>MULTADO!</strong></p>'
+    res.innerHTML = 'ESTRANGEIRO'
 
+  } else if (pais == 'underfine'){
 
+    res.innerHTML = 'ERRO!'
 
-      } else {
+  } else {
 
-        res = alert('SIGA EM FRENTE!!!')
-      }
-    }
+    res.innerHTML = ''
+  }
+
+}
       
     
         
