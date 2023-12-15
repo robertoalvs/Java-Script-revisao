@@ -68,9 +68,24 @@ form {
 
 }
 
+label {
+
+    width: 105px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.botao {
+
+    margin-bottom: 5px;
+    margin-left: 220px;
+}
+
 input {
 
-    
+    margin-bottom: 5px;
 }
 
 

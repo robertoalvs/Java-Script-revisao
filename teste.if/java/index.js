@@ -25,7 +25,7 @@ function verificar() {
 
    } else 
             
-        if (hora >= 12 && hora <= 18) {
+            if (hora >= 12 && hora <= 18) {
 
         foto.src = "./img/tarde.png"
         document.body.style.background = 'rgb(241, 94, 26)'
