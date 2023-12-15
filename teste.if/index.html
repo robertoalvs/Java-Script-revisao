@@ -1,21 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="Pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>if and else condições</title>
+    <title>Condições</title>
+    <link rel="stylesheet" href="./css/css.css">
 </head>
-<body>
-    
-    <form action="" method="post">
+<body onload="verificar()">
 
-        <input type="text" name="txt" id="itxt">
-        <input type="button" value="verificar" onclick="verificar()">
-    </form>
+        <header>
 
-    <div id="res"></div>
+            <h1>Hora do dia!</h1>
 
-    <script src="./index.js"></script>
+        </header>
+
+        <main id="corpo">
+
+            <section id="sec">
+
+                <article id="msg"> Ano e horas</article>
+
+                <article id="res">
+
+                    <img id="imagem" src="./img/manha.png" alt="Foto Manhã">
+
+               </article>
+
+               <form action="" method="post">
+
+                Nome: <input type="text" name="nome" id="inome"> <br>
+
+                Ano atual: <input type="number" name="year" id="iyear"> <br>
+
+                Ano nascimento: <input type="number" name="nasc" id="inasc">
+                <input type="button" value="Verificar">
+
+               </form>
+
+            </section>
+
+        </main>
+
+        <footer>desenvolvedor &copy;roberto alves</footer>
+        
+        <script src="./java/index.js"></script>
 </body>
 </html>
