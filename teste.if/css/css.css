@@ -20,7 +20,7 @@ main {
     justify-content: center;
     align-content: center;
     width: 500px;
-    height: 590px;
+    height: 690px;
     border-radius: 20px;
     background-color: rgb(86, 22, 139);
     margin: 0 auto;
@@ -31,11 +31,12 @@ main {
 #sec {
 
     text-align: center;
+    margin-top: -60px;
 }
 
 #msg {
 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     letter-spacing: 3px;
 }
 
@@ -46,7 +47,7 @@ main {
     box-shadow: 2px 2px 20px black;
     border-radius: 50%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     letter-spacing: 3px;
 }
 
@@ -60,6 +61,7 @@ main {
 #res {
 
     letter-spacing: 3px;
+    margin-bottom: 30px;
 }
 
 form {
@@ -86,6 +88,11 @@ label {
 input {
 
     margin-bottom: 5px;
+}
+
+#formulario {
+
+    margin-top: 10px;
 }
 
 

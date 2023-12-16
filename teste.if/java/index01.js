@@ -5,6 +5,8 @@ function clicar () {
     let anoatual = document.getElementById('iyear')
     let nasc = document.getElementById('inasc')
 
+    let name = nome.value
+
     let n1 = Number(anoatual.value)
     let n2 = Number(nasc.value)
     let soma = n1 - n2
@@ -18,7 +20,7 @@ function clicar () {
 
     } else {
 
-        form.innerHTML = `Seu nome é ${nome} você tem ${soma} anos`
+        form.innerHTML = `Seu nome é ${name} você tem ${soma} anos`
     }
 
            
