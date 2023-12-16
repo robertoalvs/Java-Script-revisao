@@ -44,4 +44,7 @@ function verificar() {
             /* res.style.color = 'white' */
 
    }
+
+
 }
+
