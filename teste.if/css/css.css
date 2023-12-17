@@ -20,7 +20,7 @@ main {
     justify-content: center;
     align-content: center;
     width: 600px;
-    height: 600px;
+    height: 650px;
     border-radius: 20px;
     background-color: rgb(86, 22, 139);
     margin: 0 auto;
@@ -32,7 +32,7 @@ main {
 #sec {
 
     text-align: center;
-    margin-top: -20px;
+    margin-top: 50px;
 }
 
 #msg {
@@ -96,6 +96,25 @@ input {
 #formulario {
 
     margin-top: 10px;
+}
+
+#flagbr {
+
+   width: 48px;
+   height: 48px;
+   opacity: 0;
+   display: block;
+   margin-left: 44%;
+   
+}
+
+#estrangeiro {
+
+    width: 48px;
+   height: 48px;
+   visibility: hidden;
+   display: block;
+   margin-left: 44%;
 }
 
 

@@ -4,6 +4,8 @@ function clicar () {
     let nome = document.querySelector('input#inome')
     let anoatual = document.getElementById('iyear')
     let nasc = document.getElementById('inasc')
+    let flagbr = document.querySelector('img#flagbr')
+    let euro = document.querySelector('img#estrangeiro')
 
     let pais = document.getElementById('ipais')
 
@@ -26,9 +28,18 @@ function clicar () {
 
         form.innerHTML = `Você mora no <strong>${country}</strong> seu nome é <strong>${name}</strong> e você tem <strong>${soma}</strong> anos <br>!!BRASILEIRO!!`
 
+        flagbr.src = "./img/icons8-brazil-96.png"
+        flagbr.style.opacity = '1'
+        
+
     } else {
 
         form.innerHTML = `Você mora no <strong>${country}</strong> seu nome é <strong>${name}</strong> e você tem <strong>${soma}</strong> anos <br>!!ESTRANGEIRO!!`
+        
+        euro.src = "./img/icons8-new-zealand-96.png"
+        euro.style.opacity = '1'
+        flagbr.style.opacity = '0'
+        
     } 
 
            
