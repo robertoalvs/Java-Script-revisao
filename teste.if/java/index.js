@@ -18,8 +18,10 @@ function verificar() {
    if (hora >= 0 && hora < 12) {
 
         foto.src = "./img/manha.png"
-        document.body.style.background = 'rgb(247, 168, 23)'
-        corpo.style.background = 'rgb(241, 94, 26)'
+
+       document.body.style.background = 'linear-gradient(rgb(79, 171, 242), yellow)'
+
+        corpo.style.background = 'linear-gradient(rgb(241, 94, 26), white)'
 
         res.innerHTML += `<strong>Bom dia</strong> hoje é dia <strong>${dia}</strong>`
 
@@ -29,6 +31,7 @@ function verificar() {
             if (hora >= 12 && hora <= 17) {
 
         foto.src = "./img/tarde.png"
+
         document.body.style.background = 'rgb(241, 94, 26)'
         corpo.style.background = 'rgb(247, 168, 23)'
 
@@ -38,6 +41,7 @@ function verificar() {
    } else {
 
             foto.src = "./img/noite.png"
+
             document.body.style.background = 'rgb(59, 76, 235)'
             corpo.style.background = 'rgb(86, 22, 139)'
 
