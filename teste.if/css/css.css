@@ -20,7 +20,7 @@ main {
     justify-content: center;
     align-content: center;
     width: 600px;
-    height: 650px;
+    height: 690px;
     border-radius: 20px;
     background-color: rgb(86, 22, 139);
     margin: 0 auto;
@@ -32,7 +32,7 @@ main {
 #sec {
 
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 #msg {
@@ -95,28 +95,40 @@ input {
 
 #formulario {
 
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+picture {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
 }
 
 #flagbr {
 
    width: 48px;
    height: 48px;
-   opacity: 0;
    display: block;
-   margin-left: 44%;
-   
+   opacity: 0;
+   margin-top: -10px;
 }
 
 #estrangeiro {
 
-    width: 48px;
+   width: 48px;
    height: 48px;
-   visibility: hidden;
-   display: block;
-   margin-left: 44%;
+   opacity: 0;
+   margin-top: -50px;
 }
-
 
 footer {
 

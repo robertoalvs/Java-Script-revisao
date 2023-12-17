@@ -4,9 +4,8 @@ function clicar () {
     let nome = document.querySelector('input#inome')
     let anoatual = document.getElementById('iyear')
     let nasc = document.getElementById('inasc')
-    let flagbr = document.querySelector('img#flagbr')
-    let euro = document.querySelector('img#estrangeiro')
-
+    let flagbr = document.getElementById('flagbr')
+    let euro = document.getElementById('estrangeiro')
     let pais = document.getElementById('ipais')
 
     let country = pais.value
@@ -24,23 +23,24 @@ function clicar () {
 
 
     } else 
-            if(country == 'Brasil' || country == 'brasil')    {
+            if (country == 'Brasil' || country == 'brasil')    {
 
-        form.innerHTML = `Você mora no <strong>${country}</strong> seu nome é <strong>${name}</strong> e você tem <strong>${soma}</strong> anos <br>!!BRASILEIRO!!`
+            form.innerHTML = `<p> Você mora no <strong>${country}</strong> seu nome é <strong>${name}</strong> <br>Você tem <strong>${soma}</strong> anos <strong>!!BRASILEIRO!!</strong></p>`
 
-        flagbr.src = "./img/icons8-brazil-96.png"
-        flagbr.style.opacity = '1'
+            flagbr.src = "./img/icons8-brazil-96.png"
+            flagbr.style.opacity = '1'
+            euro.style.opacity = '0'
         
 
     } else {
 
-        form.innerHTML = `Você mora no <strong>${country}</strong> seu nome é <strong>${name}</strong> e você tem <strong>${soma}</strong> anos <br>!!ESTRANGEIRO!!`
+        form.innerHTML = `<p> Você mora no <strong>${country}</strong> seu nome é <strong>${name}</strong> <br>Você tem <strong>${soma}</strong> anos <strong>!!ESTRANGEIRO!!</strong></p>`
         
         euro.src = "./img/icons8-new-zealand-96.png"
         euro.style.opacity = '1'
         flagbr.style.opacity = '0'
-        
     } 
 
-           
+    
+
 }
