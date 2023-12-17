@@ -19,8 +19,8 @@ main {
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 500px;
-    height: 690px;
+    width: 600px;
+    height: 600px;
     border-radius: 20px;
     background-color: rgb(86, 22, 139);
     margin: 0 auto;
@@ -72,7 +72,7 @@ form {
 
 label {
 
-    width: 105px;
+    width: 155px;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -82,12 +82,14 @@ label {
 .botao {
 
     margin-bottom: 5px;
-    margin-left: 220px;
+    margin-left: 230px;
 }
 
 input {
 
     margin-bottom: 5px;
+    margin-left: -20px;
+    border-radius: 5px;
 }
 
 #formulario {

@@ -13,6 +13,7 @@ function verificar() {
 
 
    msg.innerHTML = `Estamos em <strong>${ano}</strong> e são <strong>${hora}</strong> horas da manhã`
+   msg.style.color = 'white'
 
    if (hora >= 0 && hora < 12) {
 
@@ -25,7 +26,7 @@ function verificar() {
 
    } else 
             
-            if (hora >= 12 && hora <= 18) {
+            if (hora >= 12 && hora <= 17) {
 
         foto.src = "./img/tarde.png"
         document.body.style.background = 'rgb(241, 94, 26)'
@@ -41,7 +42,7 @@ function verificar() {
             corpo.style.background = 'rgb(86, 22, 139)'
 
             res.innerHTML += `<strong>Bom dia</strong> hoje é dia <strong>${dia}</strong>`
-            /* res.style.color = 'white' */
+            res.style.color = 'white'
 
    }
 
