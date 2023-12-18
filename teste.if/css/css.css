@@ -5,6 +5,7 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     /*background-image: linear-gradient(rgb(241, 94, 26), white);*/
+    height: 100vh;
 }
 
 header > h1 {
@@ -57,6 +58,7 @@ main {
 
     opacity: 0.5;
     transition: 1s;
+    transform: translateY(1);
     
 }
 
@@ -84,7 +86,13 @@ label {
 .botao {
 
     margin-bottom: 5px;
-    margin-left: 230px;
+    margin-left: 250px;
+}
+
+.botao:hover {
+
+    background-color: rgb(157, 230, 205);
+    transition: 2s;
 }
 
 input {
@@ -121,6 +129,7 @@ picture {
    display: block;
    opacity: 0;
    margin-top: -10px;
+   
 }
 
 #estrangeiro {
