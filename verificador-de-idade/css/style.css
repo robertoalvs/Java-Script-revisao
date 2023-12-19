@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+header > h1 {
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+#sec {
+
+    width: 600px;
+    height: 500px;
+    border: 1px 1px 1px black;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px black;
+}
+
+label {
+
+    width: 150px;
+    
+
+}
+#isexo {
+
+    margin-left: 10px;
+}
+
+#inum {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+#botao {
+
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+footer {
+
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    background-color: antiquewhite;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px black;
+}
