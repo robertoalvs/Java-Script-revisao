@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+h1 {
+
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+
+    margin-bottom: 10px;
+    
+}
+
+#sessao {
+
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+#msg, #res {
+
+    text-align: center;
+}
+
+#res-form {
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+#foto {
+
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+
+#formulario {
+
+    margin-top: 40px;
+    text-align: center;
+}
+
+label {
+
+    width: 150px;
+    text-align: left;
+    display: inline-block;
+    
+}
+
+input {
+
+    width: 150px;
+}
+
+#botao {
+
+    margin-top: 5px;
+    margin-left: 35%;
+}
+
+footer {
+
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+

@@ -13,6 +13,7 @@ function clicar () {
 
     let n1 = Number(anoatual.value)
     let n2 = Number(nasc.value)
+    
     let soma = n1 - n2
 
     let form = document.getElementById('formulario')
