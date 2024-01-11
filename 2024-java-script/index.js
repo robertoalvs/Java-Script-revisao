@@ -14,7 +14,6 @@ function verificar() {
     if (hora >= 0 && hora < 12) {
 
         msg.innerHTML = `Estamos em ${ano} e são ${hora} horas da manhã`
-
         res.innerHTML = `Bom dia, hoje é dia <strong>${dia}</strong>`
 
         foto.src = '../teste.if/img/manha.png'
@@ -24,7 +23,6 @@ function verificar() {
             if (hora >= 12 && hora < 18) {
 
                 msg.innerHTML = `Estamos em ${ano} e são ${hora} horas da tarde`
-
                 res.innerHTML = `Boa tarde, hoje é dia <strong>${dia}</strong>`
 
                 foto.src = '../teste.if/img/tarde.png'
@@ -32,9 +30,7 @@ function verificar() {
             } else {
 
                 msg.innerHTML = `Estamos em ${ano} e são ${hora} horas da noite`
-
                 res.innerHTML = `Boa noite, hoje é dia <strong>${dia}</strong>`
-
 
                 foto.src = '../teste.if/img/noite.png'
 
