@@ -17,19 +17,19 @@ function verificar() {
 
         foto.src = '../teste.if/img/manha.png'
 
-        res.innerHTML = `Boa dia hoje é dia <strong>${dia}</strong>`
+        res.innerHTML = `Boa dia hoje, hoje é dia <strong>${dia}</strong>`
 
     } else 
             if (hora >= 12 && hora < 18) {
 
                 foto.src = '../teste.if/img/tarde.png'
 
-                res.innerHTML = `Boa tarde hoje e dia <strong>${dia}</strong>`
+                res.innerHTML = `Boa tarde hoje é dia <strong>${dia}</strong>`
 
             } else {
 
                 foto.src = '../teste.if/img/noite.png'
 
-                res.innerHTML = `Boa noite hoje e dia <strong>${dia}</strong>`
+                res.innerHTML = `Boa noite hoje é dia <strong>${dia}</strong>`
             }
 }

@@ -42,10 +42,20 @@ main {
     text-align: center;
 }
 
-#res-form {
+#resform {
 
     text-align: center;
-    margin-top: 40px;
+    
+    background-color: white;
+    background-size: cover;
+    background-position: center, center;
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 #foto {
@@ -77,7 +87,13 @@ input {
 #botao {
 
     margin-top: 5px;
-    margin-left: 35%;
+    margin-left: 16.5%;
+    margin-bottom: 20px;
+}
+
+span {
+
+    font-size: 2em;
 }
 
 footer {
