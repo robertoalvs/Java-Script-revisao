@@ -23,11 +23,29 @@ function clicar() {
         } else
                 if (paises == 'Brasil' || paises == 'brasil') {
 
+                    if (total <= 17) {
+
+                        alert('[WARNING!] VOCÊ É MENOR DE IDADE!!!')
+
+                    } else {
+
+                        alert('[VOCÊ É MAIOR DE IDADE!!!]')
+                    }
+
                     form.innerHTML =  `Você é Brasileiro e tem ${total} anos.`
                     form.style.backgroundImage = 'url(./flag-brasil.jpg)'
                     form.style.color = 'white'
 
                 } else {
+
+                    if (total <= 17) {
+
+                        alert('[WARNING!] VOCÊ É MENOR DE IDADE!!!')
+
+                    } else {
+
+                        alert('[VOCÊ É MAIOR DE IDADE!!!]')
+                    }
 
                     form.innerHTML =  `Você é Estrangeiro e tem ${total} anos.`
                     form.style.backgroundImage = 'url(./flag-euro.png)'
