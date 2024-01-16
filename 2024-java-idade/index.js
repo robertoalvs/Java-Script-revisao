@@ -12,14 +12,42 @@ function clicar() {
     let num = Number(numero1.value)
     let idade = ano - num
 
+    let homem = sex[0].checked
+    let mulher = sex[1].checked
+    let genero = ''
     
 
-    if (idade == 0 || idade <= 11) {
+    if (numero1.value == 0 || num > ano) {
 
-        resposta.innerHTML = `Você tem: <strong>${idade}</strong> anos`
+        alert('[ERRO! Você digitou o ano de nascimento errado, ou não digitou nada]')
 
-    } else  {
+    } else  
+            if(homem && idade <= 11){
 
-        alert('Adulto')
-    }
+        genero = 'Homem'
+
+        fotos.src ='../2024-java-idade/img/crianca-homem.png'
+        resposta.innerHTML = `Você é: ${genero} e tem ${idade} anos `
+
+    } else 
+            if(homem && idade >= 12 && idade < 17) {
+            
+                genero = 'Homem'
+
+             fotos.src ='../2024-java-idade/img/adolecente-menino.png'
+             resposta.innerHTML = `Você é: ${genero} e tem ${idade} anos `
+                
+    } else {
+
+            if(homem && idade >= 18 && idade <= 59)
+
+             genero = 'Homem'
+
+        fotos.src ='../2024-java-idade/img/homem-adulto.png'
+        resposta.innerHTML = `Você é: ${genero} e tem ${idade} anos `
+
+
+    } 
+
+
 }
