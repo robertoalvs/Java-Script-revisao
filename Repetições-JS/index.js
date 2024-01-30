@@ -18,6 +18,8 @@ function contar() {
 
 
     } else {
+        
+        res.innerHTML = 'Contando...'
 
         for (let c = num1; c <= num2; c += num3) {
 
