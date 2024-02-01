@@ -15,16 +15,29 @@ function contar() {
     if (num1 == 0 || num2 == 0 || num3 == 0) {
 
         alert('ERRO! CORRIGIR')
-
+        res.innerHTML = 'IMPOSSÍVEL CONTAR'
 
     } else {
         
-        res.innerHTML = 'Contando...'
+        res.innerHTML = 'Contando:'
 
-        for (let c = num1; c <= num2; c += num3) {
+        if (num1 < num2) {
 
-            res.innerHTML += `${c}`
+            for (let c = num1; c <= num2; c += num3) {
+
+                res.innerHTML += `${c} \u{1F449}`
+            }
+            
+        } else {
+
+            for (let c = num1; c >= num2; c -= num3) {
+
+                res.innerHTML += `${c} \u{1F449}`
+
+            }
         }
+        
 
+        res.innerHTML += `\u{1F3C1}`
     } 
  }

@@ -23,6 +23,7 @@ form {
     height: 200px;
     padding: 20px;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -40,15 +41,16 @@ input {
 #res {
 
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 2em;
+    padding: 10px;
     color: red;
     font-weight: bolder;
-    width: 200px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(162, 162, 235, 0.249);
+    margin: auto;
 }
 
 footer {
-
+    margin-top: 10px;
     text-align: center;
 }
